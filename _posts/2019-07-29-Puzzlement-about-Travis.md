@@ -18,8 +18,8 @@ categories: Travis
 
 开心地push到github上之后，博客却迟迟没有更新，点进travis官网，发现我的仓库竟然没有激活，我？？？？一脸懵逼，搞不清状况，然后又重新生成token，把下午的操作重来了一遍，依然无尽的failed。就在查找错误原因的过程，看见有人说travis有两个网站....  
 我一看，下午进的是travis.com，晚上进的是travis.org（我就说为啥晚上进又要重新登陆）
->https://travis-ci.com/  
->https://www.travis-ci.org/
+><https://travis-ci.com/>  
+><https://www.travis-ci.org/>
 
 敢情两个一模一样的网站竟然是不同的，我真的晕了Orz
 虽然还没弄清楚这两个网站的关系，但我要睡觉了哈哈哈，一切留给明天吧~ good night🌙
