@@ -13,7 +13,8 @@ categories: Travis
 
 #### 一些笔记
 ##### 持续更新中...
-- 网页无法向下滑动 原因：overflow-y: hidden   
+- 网页无法向下滑动 原因：overflow-y: hidden    
+
    值     |描述
    -------|:---
    visible|不裁剪内容，可能会显示在内容框之外
