@@ -125,6 +125,10 @@
     word-break: break-word;
     word-wrap: break-word;
   }
+
+  td {
+    border: 1px solid #888;
+  }
 }
 
 #markdown-toc {
