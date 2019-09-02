@@ -2,7 +2,7 @@
 layout: post
 title: "My Blog"
 date: 2019-07-29 23:33:27
-categories: Travis
+categories: adventure
 ---
 ### 博客搭建笔记(●'◡'●)
 
