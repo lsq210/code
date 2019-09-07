@@ -8,6 +8,8 @@ categories: adventure
 
 #### 开发笔记  
 ************* 绝密 **************
+简单纯朴的v0.0.1
+![v0.0.1](https://raw.githubusercontent.com/lsq210/photo-album/master/code/lsq-gym-v0.0.1.png)
 
 #### 花絮
 哈哈哈哈我觉得太中二了，还好这里没人💃
