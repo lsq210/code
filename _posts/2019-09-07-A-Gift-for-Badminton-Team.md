@@ -12,17 +12,21 @@ categories: adventure
 
 ### 开发笔记  
 #### 前期准备
-- [[fiddler]](https://www.telerik.com/fiddler) 对网页进行抓包  
+- [[fiddler]](https://www.telerik.com/fiddler) 对网页进行抓包，发现抢场主要分为三步：  
+    - 获取cookie，登陆账号  
+    - 查看当天是否开放抢场
+    - 若开放，预定场地  
 - [[electron-vue]](https://simulatedgreg.gitbooks.io/electron-vue/content/cn/) 利用 `vue-cli` 作为脚手架构造 `electron` 应用程序  
 
         // 安装 vue-cli 和 脚手架样板代码
-        npm install -g vue-cli
+        npm install -g vue-cli  
         vue init simulatedgreg/electron-vue my-project  
 
         // 安装依赖并运行你的程序
-        cd my-project
-        yarn // 或者 npm install
+        cd my-project  
+        yarn // 或者 npm install  
         yarn run dev // 或者 npm run dev
+
 
 #### 花絮
 哈哈哈哈我觉得太中二了，还好这里没人💃
