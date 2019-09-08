@@ -6,11 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 'Tech Diary'  # Your Title
-tagline: 'Just coding'  # A brief tagline for your site
-email: zhao.zchen9@gmail.com
+title: 'Just coding'  # Your Title
+email: 1135595767@qq.com
 description: 
-github_username:  zchen9
+github_username:  lsq210
 sidebar_image: /images/cover.jpg
 timezone: 'Asia/Shanghai'
 destination: ./_site
