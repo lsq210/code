@@ -4,7 +4,7 @@ title: "A Gift for Badminton Team"
 date: 2019-09-07 23:56:00
 categories: adventure
 ---
-### 独家抢场软件🏸
+##### 独家抢场软件🏸
 
 由于羽毛球场只能在网上预约，而永远是僧多粥少的局面。  
 既然拼不过手速，就只能拼技术了。  
@@ -61,7 +61,7 @@ categories: adventure
             console.log(error)
             })
 
-在`function createWindow ()`里添加每个请求访问的地址，特别要注意，`Header`里的内容一定要完全对应起来。  
+在`function createWindow ()`里添加每个请求访问的地址，特别要注意，`Header`里的内容一定要与从网页抓包获取的完全对应起来。  
 
 #### 注意事项  
 - 获取当前时间函数，**月份**是从 0 开始的。
@@ -83,11 +83,11 @@ categories: adventure
         (parameter) => {}  
 
 #### 功能  
-[x] 定时器
-[ ] 自动获取 userId
-[ ] 全自动抢场
+- [x] 定时器
+- [ ] 自动获取 userId
+- [ ] 全自动抢场
 
-##### 花絮
+#### 花絮
 哈哈哈哈我觉得太中二了，还好这里没人💃
 
 刚刚在写一个抢羽毛球场地的脚本。已经模拟了正常的预定场地功能，思考如何实现准点抢时——  
