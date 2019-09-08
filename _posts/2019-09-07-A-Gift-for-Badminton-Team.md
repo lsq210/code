@@ -4,13 +4,12 @@ title: "A Gift for Badminton Team"
 date: 2019-09-07 23:56:00
 categories: adventure
 ---
-##### 独家抢场软件🏸
+### 独家抢场软件🏸
 
-由于羽毛球场只能在网上预约，而永远是僧多粥少的局面。  
+>由于羽毛球场只能在网上预约，而永远是僧多粥少的局面。  
 既然拼不过手速，就只能拼技术了。  
 于是，就有了这份为球队准备的小礼物。   
 
-### 开发笔记  
 #### 前期准备
 - [[fiddler]](https://www.telerik.com/fiddler) 对网页进行抓包，抢场主要分为三步：  
     1. 获取cookie，登陆账号  
@@ -82,7 +81,8 @@ categories: adventure
         // 箭头函数
         (parameter) => {}  
 
-#### 功能  
+#### 功能 
+ 
 - [x] 定时器
 - [ ] 自动获取 userId
 - [ ] 全自动抢场
