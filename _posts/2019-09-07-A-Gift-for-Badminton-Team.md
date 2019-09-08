@@ -12,23 +12,72 @@ categories: adventure
 
 ### 开发笔记  
 #### 前期准备
-- [[fiddler]](https://www.telerik.com/fiddler) 对网页进行抓包，发现抢场主要分为三步：  
-    - 获取cookie，登陆账号  
-    - 查看当天是否开放抢场
-    - 若开放，预定场地  
+- [[fiddler]](https://www.telerik.com/fiddler) 对网页进行抓包，抢场主要分为三步：  
+    1. 获取cookie，登陆账号  
+    2. 查看当天是否开放抢场
+    3. 如果是开放状态，预定场地
 - [[electron-vue]](https://simulatedgreg.gitbooks.io/electron-vue/content/cn/) 利用 `vue-cli` 作为脚手架构造 `electron` 应用程序  
 
         // 安装 vue-cli 和 脚手架样板代码
         npm install -g vue-cli  
         vue init simulatedgreg/electron-vue my-project  
 
-        // 安装依赖并运行你的程序
+        // 安装依赖
         cd my-project  
-        yarn // 或者 npm install  
-        yarn run dev // 或者 npm run dev
+        npm install // 或者yarn  
 
+        // 本地运行
+        npm run dev // 或者 yarn run dev  
 
-#### 花絮
+        // 打包生成软件
+        npm run build  
+
+#### 模拟请求  
+[axios](http://www.axios-js.com/) 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。以我的理解，就是一个用来向后台发送请求的工具。  
+在vue构建的项目里，可用 `http` 代替 `axios`
+        
+        Vue.http = Vue.prototype.$http = axios  
+
+- 执行 GET 请求  
+
+        this.$http.get(baseUrl)
+            .then((response) => {
+            // handle success
+            console.log(response)
+            })
+            .catch(function (error) {
+            // handle error
+            console.log(error)
+            })
+
+- 执行 POST 请求  
+
+        this.$http.post(baseUrl, postContent)
+            .then(function (response) {
+            console.log(response)
+            })
+            .catch(function (error) {
+            console.log(error)
+            })
+
+在`function createWindow ()`里添加每个请求访问的地址，特别要注意，`Header`里的内容一定要完全对应起来。  
+
+#### 注意事项  
+- 获取当前时间函数，**月**是从 0 开始的。
+    var time = new Date()
+    var year = time.getFullYear()
+    var month = time.getMonth() + 1
+    var date = time.getDate()
+    var hours = time.getHours()
+    var minutes = time.getMinutes()
+    var seconds = time.getSeconds()
+    
+#### 功能  
+- [x] 定时器
+- [ ] 自动获取 userId
+- [ ] 全自动抢场
+
+##### 花絮
 哈哈哈哈我觉得太中二了，还好这里没人💃
 
 刚刚在写一个抢羽毛球场地的脚本。已经模拟了正常的预定场地功能，思考如何实现准点抢时——  
