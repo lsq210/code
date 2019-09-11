@@ -4,17 +4,17 @@ title: "Git Workflow"
 date: 2019-09-07 23:56:00
 categories: git
 ---
-# Git 团队合作指南
+### Git 团队合作指南
 
 > version 1.1
 
-## 下载项目
+#### 下载项目
 
 ```bash
 git clone https://github.com/lsq210/EasyPay.git
 ```
 
-## 从 develop 新建分支
+#### 从 develop 新建分支
 
 - 方法一：先切换到 develop 分支，再新建
 
@@ -29,7 +29,7 @@ git clone https://github.com/lsq210/EasyPay.git
   git checkout -b <新分支名字如 add-header> origin/develop
   ```
 
-## 添加新功能的部分代码
+#### 添加新功能的部分代码
 
 - bug1
 - bug2
@@ -37,7 +37,7 @@ git clone https://github.com/lsq210/EasyPay.git
 - bug4
 - fix bug1
 
-## 提交代码
+#### 提交代码
 
 1. 保存到暂存区
 
@@ -60,11 +60,11 @@ git clone https://github.com/lsq210/EasyPay.git
    git push origin <分支名字如之前添加的 add-header>
    ```
 
-## 继续修改代码并提交代码
+#### 继续修改代码并提交代码
 
 此处略去若干重复操作
 
-## 新功能添加完成后合并到 develop 分支并提交到远程
+#### 新功能添加完成后合并到 develop 分支并提交到远程
 
 1. 更新本地的 develop 分支，使之和远程最新的 develop 分支保持一致
 
@@ -88,7 +88,7 @@ git clone https://github.com/lsq210/EasyPay.git
    git push origin develop
    ```
 
-## 删除新功能分支
+#### 删除新功能分支
 
 1. 删除本地分支
 
@@ -102,7 +102,7 @@ git clone https://github.com/lsq210/EasyPay.git
    git push origin :<新分支名字(冒号后无空格)如 add-header>
    ```
 
-## 下一个功能...
+#### 下一个功能...
 
 1. 新建分支
 2. 提交代码
@@ -111,7 +111,7 @@ git clone https://github.com/lsq210/EasyPay.git
 5. ...
 6. ...
 
-## 发布新版本(组长操作)
+#### 发布新版本(组长操作)
 
 1. 在 develop 分支上修改 package.json 中的 version 字段，改为新的版本号
 
