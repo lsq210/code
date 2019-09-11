@@ -39,7 +39,7 @@ git clone https://github.com/lsq210/EasyPay.git
 
 #### 提交代码
 
-1. 保存到暂存区
+- 1. 保存到暂存区
 
    ```bash
    # 暂存所有修改
@@ -77,7 +77,7 @@ git clone https://github.com/lsq210/EasyPay.git
    ```bash
    # 将新分支的所有提交移到 develop 分支的最前端，采用“变基”的方式
    git rebase develop
-   
+
    # 将新分支合并到 develop 分支
    git checkout develop
    git merge --no-ff <分支名字如之前添加的 add-header>
@@ -136,5 +136,4 @@ git clone https://github.com/lsq210/EasyPay.git
    git push origin master --tags
    ```
 
-   
-  
+> 感谢 [@小陶老师](https://github.com/CS-Tao)
