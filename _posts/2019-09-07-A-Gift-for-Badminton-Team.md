@@ -32,7 +32,8 @@ categories: adventure
         npm run build  
 
 #### 模拟请求  
-[axios](http://www.axios-js.com/) 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。  
+>[axios](http://www.axios-js.com/) 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。 
+
 以我的理解，就是一个用来向后台发送请求的工具。  
 在vue构建的项目里，可用 `http` 代替 `axios`：
         
@@ -82,9 +83,9 @@ categories: adventure
         (parameter) => {}  
 
 #### 功能 
- 
+
 - [x] 定时器
-- [ ] 自动获取 userId
+- [x] 自动获取 userId
 - [ ] 全自动抢场
 
 #### 花絮
