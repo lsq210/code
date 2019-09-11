@@ -39,7 +39,7 @@ git clone https://github.com/lsq210/EasyPay.git
 
 #### 提交代码
 
-- 1.保存到暂存区
+1. 保存到暂存区
 
    ```bash
    # 暂存所有修改
