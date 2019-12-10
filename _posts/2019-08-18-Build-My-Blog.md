@@ -22,6 +22,10 @@ categories: adventure
    scroll |裁剪内容，提供滚动机制，显示滚动条
    auto   |如果溢出框，则提供滚动机制，否则不显示
 - 利用 v-for 对 a 标签进行循环时，相邻标签之间无换行也无空格。  
+- 修复部分浏览器无法正常显示 Emoji 的问题：  
+
+      font-family: 'Bitter', 'Lantinghei SC', 'Microsoft YaHei', sans-serif, 'Segoe UI Emoji', 'Emoji', Tahoma, 'Geneva', 'Simsun';
+
 
 #### 感谢
 💖 实在是太喜欢 [zchen9](https://github.com/zchen9) 小姐姐的博客风格了！！！于是就拿过来用了（如果有侵权啥的我立马换>< 在这里悄悄地表示感谢~  
