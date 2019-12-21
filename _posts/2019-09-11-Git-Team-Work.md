@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Workflow"
+title: "Git Team Work"
 date: 2019-09-07 23:56:00
 categories: git
 ---
