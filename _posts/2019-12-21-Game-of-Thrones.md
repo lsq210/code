@@ -1,5 +1,5 @@
 ---
-title: Game-of-Thrones
+title: Game of Thrones
 date: 2019-12-21 14:16:00
 categories: Vue
 ---
