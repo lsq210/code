@@ -20,7 +20,6 @@ categories: Linux
 - `mkdir` — 创建目录
 - `rm` — 删除文件和目录
 - `ln` — 创建硬链接和符号链接   
-
 ##### rm 实例
 
    命令             |运行结果
@@ -30,5 +29,13 @@ categories: Linux
    rm -r file1 dir1 |删除文件 file1, 目录 dir1，及 dir1 中的内容
    rm -rf file1 dir1|同上，除了如果文件 file1，或目录 dir1 不存在的话，rm 仍会继续执行
 
+#### 一些好用的命令  
+##### screen 关闭远程连接，程序继续运行
+- `screen -ls` 查看所有 screen 会话
+- `screen -S name` 新建 screen 会话
+- `screen -r name` 进入 screen 会话
+- ctrl + a + d 退出
+- ctrl + a + k 终止 
+- `screen -X -S 1234 quit` 杀死 screen 会话
 
 > 推荐阅读：[《快乐的 Linux 命令行》](http://billie66.github.io/TLCL/book/)
