@@ -36,6 +36,34 @@ categories: Linux
 - `screen -r name` 进入 screen 会话
 - ctrl + a + d 退出
 - ctrl + a + k 终止 
-- `screen -X -S 1234 quit` 杀死 screen 会话
+- `screen -X -S 1234 quit` 杀死 screen 会话  
+
+##### 换源
+- `sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak` 备份原来的source.list文件
+- `sudo vim /etc/apt/sources.list` 修改sources.list文件
+- 添加镜像源
+
+      # 中科大镜像源
+      deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
+      deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
+      deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+      deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+      deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+      deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+      deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+      deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+      deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+      deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+      # 阿里镜像源
+      deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+      deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+      deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+      deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+      deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+      deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+      deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+      deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+      deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+      deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 
 > 推荐阅读：[《快乐的 Linux 命令行》](http://billie66.github.io/TLCL/book/)
