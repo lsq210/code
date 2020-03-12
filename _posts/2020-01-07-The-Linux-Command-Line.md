@@ -34,8 +34,8 @@ categories: Linux
 - `screen -ls` 查看所有 screen 会话
 - `screen -S name` 新建 screen 会话
 - `screen -r name` 进入 screen 会话
-- ctrl + a + d 退出
-- ctrl + a + k 终止 
+-  ctrl + a + d 退出
+-  ctrl + a + k 终止 
 - `screen -X -S 1234 quit` 杀死 screen 会话  
 
 ##### 换源
