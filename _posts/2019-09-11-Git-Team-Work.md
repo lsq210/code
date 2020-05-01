@@ -20,13 +20,13 @@ git clone https://github.com/lsq210/EasyPay.git
 
   ```bash
   git checkout develop
-  git checkout -b <新分支名字如 add-header>
+  git checkout -b <新分支名字如 feat/header>
   ```
 
 - 方法二：直接新建
 
   ```bash
-  git checkout -b <新分支名字如 add-header> origin/develop
+  git checkout -b <新分支名字如 feat/header> origin/develop
   ```
 
 #### 添加新功能的部分代码
@@ -51,13 +51,13 @@ git clone https://github.com/lsq210/EasyPay.git
 2. 将暂存区的修改提交到本地仓库
 
    ```bash
-   git commit -m "这里输入本次提交的消息如 添加界面头部"
+   git commit -m "这里输入本次提交的消息如 feat(map):添加底图"
    ```
 
 3. 提交代码到远程分支
 
    ```bash
-   git push origin <分支名字如之前添加的 add-header>
+   git push origin <分支名字如之前添加的 feat/header>
    ```
 
 #### 继续修改代码并提交代码
@@ -94,13 +94,13 @@ git clone https://github.com/lsq210/EasyPay.git
 1. 删除本地分支
 
    ```bash
-   git branch -m <新分支名字如 add-header>
+   git branch -m <新分支名字如 feat/header>
    ```
 
 2. 删除远程分支
 
    ```bash
-   git push origin :<新分支名字(冒号后无空格)如 add-header>
+   git push origin :<新分支名字(冒号后无空格)如 feat/header>
    ```
 
 #### 下一个功能...
