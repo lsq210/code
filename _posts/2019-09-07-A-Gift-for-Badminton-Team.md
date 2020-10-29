@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "A Gift for Badminton Team"
+title: "独家抢场软件"
 date: 2019-09-07 23:56:00
 categories: adventure
 ---
-### 独家抢场软件🏸
+### 一起来打球呀🏸
 
 >由于羽毛球场只能在网上预约，而永远是僧多粥少的局面。  
 既然拼不过手速，就只能拼技术了。  

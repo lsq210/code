@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Git Team Work"
+title: "Git 团队合作指南"
 date: 2019-09-07 23:56:00
 categories: git
 ---
-### Git 团队合作指南
+### 看了都说好
 
 > version 1.1
 
@@ -135,5 +135,3 @@ git clone https://github.com/lsq210/EasyPay.git
    ```bash
    git push origin master --tags
    ```
-
-> 感谢 [@小陶老师](https://github.com/CS-Tao)

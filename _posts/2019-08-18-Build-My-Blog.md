@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "My Blog"
+title: "博客搭建笔记"
 date: 2019-07-29 23:33:27
 categories: adventure
 ---
-### 博客搭建笔记(●'◡'●)
+### 我也是有博客的人了(●'◡'●)
 
 #### 基本结构  
 - [主页](https://lsq210.github.io/)  自己写了个简单的 html 作为个人主页，界面设计参考 [Archer](https://github.com/fi3ework/hexo-theme-archer) 主题。
