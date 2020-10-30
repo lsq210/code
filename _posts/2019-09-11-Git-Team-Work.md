@@ -4,14 +4,16 @@ title: "Git 团队合作指南"
 date: 2019-09-07 23:56:00
 categories: git
 ---
-### 看了都说好
+### 实用指数五颗星⭐
+
+更新在下面...
 
 > version 1.1
 
 #### 下载项目
 
 ```bash
-git clone https://github.com/lsq210/EasyPay.git
+git clone <仓库地址>
 ```
 
 #### 从 develop 新建分支
@@ -135,3 +137,7 @@ git clone https://github.com/lsq210/EasyPay.git
    ```bash
    git push origin master --tags
    ```
+
+> version 1.2
+
+在提交的时候利用 [`git cz`](https://github.com/streamich/git-cz) 来替代 `git commit`，就可以拥有规范又可爱的提交啦~
